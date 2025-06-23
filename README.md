@@ -314,7 +314,7 @@ E_quantum = 16πp × E₀
 **Prof. Basil Yahya Abdullah**  
 **أستاذ باسل يحيى عبدالله**
 
-- 📧 Email: basil.prime.theory@example.com
+- 📧 Email: allmyalmbtkr@gmail.com
 
 ---
 
