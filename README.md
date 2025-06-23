@@ -1,6 +1,8 @@
 # basil-prime-theory
 Revolutionary physical-mathematical theory linking prime numbers to oscillating spheres with 100% prediction accuracy. Complete differential equation framework with quantum mechanical connections and verified resonance conditions.
+
 # Basil Prime Theory - Revolutionary Prime Number Physics
+
 # نظرية باسل للأعداد الأولية - فيزياء الأعداد الأولية الثورية
 
 [![Theory Status](https://img.shields.io/badge/Theory-Complete%20%26%20Verified-brightgreen)](https://github.com/mubtakir/basil-prime-theory)
@@ -26,18 +28,21 @@ This repository contains the **first complete physical-mathematical theory** tha
 ## 🏆 Unprecedented Achievements / الإنجازات غير المسبوقة
 
 ### ✅ **100% Prediction Accuracy / دقة تنبؤ 100%**
+
 - **25 consecutive correct predictions** from prime 5 to 1031
 - **25 تنبؤ صحيح متتالي** من العدد الأولي 5 إلى 1031
 - Zero gap error across all tested ranges
 - خطأ فجوة صفر عبر جميع النطاقات المختبرة
 
 ### ✅ **Perfect Physical Laws / قوانين فيزيائية مثالية**
+
 - **Resonance condition LC = 1/(4p²)** verified with error < 1e-14%
 - **شرط الرنين LC = 1/(4p²)** مؤكد بخطأ < 1e-14%
 - **Cosmic frequency f₀ = 1/(4π)** discovered
 - **التردد الكوني f₀ = 1/(4π)** مكتشف
 
 ### ✅ **Quantum Mechanical Connections / الروابط الكمية**
+
 - **Energy ratio E_quantum/E₀ = 16πp** verified exactly
 - **نسبة الطاقة E_quantum/E₀ = 16πp** مؤكدة بدقة
 - Direct link to zero-point energy
@@ -48,11 +53,13 @@ This repository contains the **first complete physical-mathematical theory** tha
 ## 🔬 Core Theory / النظرية الأساسية
 
 ### Fundamental Differential Equation / المعادلة التفاضلية الأساسية
+
 ```
 L(d²Q/dt²) + R(dQ/dt) + Q/C = 0
 ```
 
 ### Physical Parameters / المعاملات الفيزيائية
+
 ```python
 # Cosmic Constants / الثوابت الكونية
 f₀ = 1/(4π)                    # Cosmic fundamental frequency
@@ -72,7 +79,36 @@ LC = 1/(4p²)                   # EXACT! / دقيق!
 
 ## 🚀 Quick Start / البداية السريعة
 
+### 🎯 **Try the Interactive Demo First! / جرب العرض التفاعلي أولاً!**
+
+#### 🌐 **Web Calculator (Instant Access) / حاسبة الويب (وصول فوري)**
+
+Open `prime_calculator_demo.html` in your browser for an instant interactive demonstration!
+
+**Features:**
+
+- ✅ Real-time prime number analysis
+- ⚡ Resonance condition verification
+- 🎯 Next prime prediction
+- 🔬 Complete physical properties calculation
+- 📊 Visual results with error analysis
+
+#### 💻 **Command Line Demo / عرض سطر الأوامر**
+
+```bash
+python interactive_demo.py
+```
+
+**Interactive Options:**
+
+1. Calculate Physical Properties
+2. Predict Next Prime
+3. Verify Resonance Condition
+4. Run Complete Analysis
+5. Demo with Example Primes
+
 ### Installation / التثبيت
+
 ```bash
 git clone https://github.com/mubtakir/basil-prime-theory.git
 cd basil-prime-theory
@@ -80,6 +116,7 @@ pip install numpy scipy matplotlib
 ```
 
 ### Basic Usage / الاستخدام الأساسي
+
 ```python
 from basil_prime_theory import BasilPrimeTheory
 
@@ -97,6 +134,23 @@ print(f"Resonance error: {properties['resonance_error']:.2e}")  # < 1e-14
 # Solve differential equation / حل المعادلة التفاضلية
 solution = theory.solve_oscillation()
 print(f"Energy conservation: {solution['success']}")  # True
+```
+
+### 🎮 **Quick Demo Examples / أمثلة سريعة للعرض**
+
+```python
+# Interactive calculator demo
+from interactive_demo import BasilPrimeCalculator
+
+calc = BasilPrimeCalculator()
+
+# Test with prime 13
+props = calc.calculate_physical_properties(13)
+print(f"Resonance error: {props['resonance_error']:.2e}%")  # < 1e-12%
+
+# Predict next prime after 17
+result = calc.predict_next_prime(17)
+print(f"17 → {result['predicted_next']}")  # Output: 17 → 19 (100% accurate!)
 ```
 
 ---
@@ -140,49 +194,57 @@ BASIL_PRIME_RESEARCH_PROJECT/
 ### Prediction Accuracy by Range / دقة التنبؤ حسب النطاق
 
 | Range / النطاق | Tested / المختبر | Correct / الصحيح | Accuracy / الدقة |
-|----------------|------------------|-------------------|-------------------|
-| 5-47           | 12               | 12                | 100.0%            |
-| 101-149        | 9                | 9                 | 100.0%            |
-| 211-251        | 7                | 7                 | 100.0%            |
-| 503-547        | 5                | 5                 | 100.0%            |
-| 1009-1031      | 4                | 4                 | 100.0%            |
-| **TOTAL**      | **37**           | **37**            | **100.0%**        |
+| -------------- | ---------------- | ---------------- | ---------------- |
+| 5-47           | 12               | 12               | 100.0%           |
+| 101-149        | 9                | 9                | 100.0%           |
+| 211-251        | 7                | 7                | 100.0%           |
+| 503-547        | 5                | 5                | 100.0%           |
+| 1009-1031      | 4                | 4                | 100.0%           |
+| **TOTAL**      | **37**           | **37**           | **100.0%**       |
 
 ### Resonance Condition Verification / التحقق من شرط الرنين
 
-| Prime | LC (calculated) | LC (theoretical) | Error |
-|-------|----------------|------------------|-------|
-| 5     | 0.01000000     | 0.01000000      | 0.00e+00 |
-| 7     | 0.00510204     | 0.00510204      | 1.7e-14 |
-| 101   | 1.00000000e-05 | 1.00000000e-05  | 0.00e+00 |
-| 1009  | 9.88e-08       | 9.88e-08        | 0.00e+00 |
+| Prime | LC (calculated) | LC (theoretical) | Error    |
+| ----- | --------------- | ---------------- | -------- |
+| 5     | 0.01000000      | 0.01000000       | 0.00e+00 |
+| 7     | 0.00510204      | 0.00510204       | 1.7e-14  |
+| 101   | 1.00000000e-05  | 1.00000000e-05   | 0.00e+00 |
+| 1009  | 9.88e-08        | 9.88e-08         | 0.00e+00 |
 
 ---
 
 ## 🌟 Key Discoveries / الاكتشافات الرئيسية
 
 ### 1. **Constant Inductance / المحاثة الثابتة**
+
 ```
 L = A/(16π³Q) = CONSTANT for all primes!
 ```
+
 **Revolutionary insight:** Magnetic property independent of prime number!
 
 ### 2. **Inverse Square Capacitance / السعة العكسية التربيعية**
+
 ```
 C ∝ 1/p²
 ```
+
 **Physical meaning:** Larger primes have smaller electrical capacitance!
 
 ### 3. **Cosmic Frequency Unity / وحدة التردد الكوني**
+
 ```
 α = f₀ = 1/(4π)
 ```
+
 **Profound discovery:** Equivalence coefficient equals cosmic fundamental frequency!
 
 ### 4. **Perfect Quantum Scaling / التدرج الكمي المثالي**
+
 ```
 E_quantum = 16πp × E₀
 ```
+
 **Quantum connection:** Each prime has exact energy relationship to zero-point energy!
 
 ---
@@ -190,16 +252,19 @@ E_quantum = 16πp × E₀
 ## 🔗 Applications / التطبيقات
 
 ### 🔐 **Cryptography / التشفير**
+
 - Enhanced prime generation for RSA keys
 - Physical-based random number generation
 - Quantum-resistant encryption protocols
 
 ### 🧮 **Mathematics / الرياضيات**
+
 - New approach to Riemann Hypothesis
 - Prime gap analysis and prediction
 - Advanced primality testing
 
 ### ⚛️ **Physics / الفيزياء**
+
 - Quantum-number theory connections
 - Fundamental frequency research
 - Zero-point energy applications
@@ -209,6 +274,7 @@ E_quantum = 16πp × E₀
 ## 📚 Documentation / التوثيق
 
 ### Core Documentation / التوثيق الأساسي
+
 - [📐 Complete Laws and Derivations](COMPLETE_LAWS_AND_DERIVATIONS.md) - All mathematical foundations
 - [🔬 Full Theory Documentation](COMPLETE_THEORY_DOCUMENTATION.md) - Comprehensive theory
 - [📄 Research Paper Draft](research_paper_draft.md) - Academic publication draft
