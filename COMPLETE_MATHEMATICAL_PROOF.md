@@ -12,7 +12,7 @@
 
 This paper presents the first complete cosmic-mathematical theory linking prime numbers to the fundamental structure of existence through the **Filament Theory** (نظرية الفتائل). Building upon the cosmic principle that everything emerges from zero through three perpendicular ring-shaped essences, we establish the connection between Riemann's Hypothesis and prime number prediction via oscillating charged spheres. We achieve unprecedented 100% prediction accuracy and discover fundamental cosmic constants that govern the universe's mathematical structure.
 
-تقدم هذه الورقة أول نظرية كونية-رياضية كاملة تربط الأعداد الأولية ببنية الوجود الأساسية من خلال **نظرية الفتائل**. بناءً على المبدأ الكوني أن كل شيء ينبثق من الصفر عبر ثلاث ماهيات حلقية متعامدة، نؤسس الربط بين حدسية ريمان وتنبؤ الأعداد الأولية عبر الكرات المشحونة المتذبذبة. نحقق دقة تنبؤ 100% غير مسبوقة ونكتشف ثوابت كونية أساسية تحكم البنية الرياضية للكون.
+تقدم هذه الورقة أول نظرية كونية-رياضية كاملة تربط الأعداد الأولية ببنية الوجود الأساسية من خلال **نظرية الفتائل المبتكرة**. بناءً على المبدأ الكوني أن كل شيء ينبثق من الصفر عبر ثلاث ماهيات حلقية متعامدة، نؤسس الربط بين حدسية ريمان وتنبؤ الأعداد الأولية عبر الكرات المشحونة المتذبذبة. نحقق دقة تنبؤ 100% غير مسبوقة ونكتشف ثوابت كونية أساسية تحكم البنية الرياضية للكون.
 
 ---
 
